@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 22/05/2018 03:49
+    Creation date: 29/11/2018 15:02
     */
 
     @font-face {
@@ -36,22 +36,42 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-bank:before { content: "\f100"; }
-.flaticon-dart:before { content: "\f101"; }
-.flaticon-career:before { content: "\f102"; }
-.flaticon-lightbulb:before { content: "\f103"; }
-.flaticon-pie-chart:before { content: "\f104"; }
-.flaticon-trophy:before { content: "\f105"; }
-.flaticon-money:before { content: "\f106"; }
-.flaticon-handshake:before { content: "\f107"; }
-.flaticon-presentation:before { content: "\f108"; }
+    .flaticon-bars:before { content: "\f100"; }
+.flaticon-wallet:before { content: "\f101"; }
+.flaticon-money-bag:before { content: "\f102"; }
+.flaticon-bank:before { content: "\f103"; }
+.flaticon-wallet-1:before { content: "\f104"; }
+.flaticon-euro:before { content: "\f105"; }
+.flaticon-credit-card:before { content: "\f106"; }
+.flaticon-chart:before { content: "\f107"; }
+.flaticon-strongbox:before { content: "\f108"; }
+.flaticon-coins:before { content: "\f109"; }
+.flaticon-money:before { content: "\f10a"; }
+.flaticon-note:before { content: "\f10b"; }
+.flaticon-shield:before { content: "\f10c"; }
+.flaticon-mobile-phone:before { content: "\f10d"; }
+.flaticon-exchange:before { content: "\f10e"; }
+.flaticon-yens:before { content: "\f10f"; }
+.flaticon-project-management:before { content: "\f110"; }
+.flaticon-mortarboard:before { content: "\f111"; }
+.flaticon-growth:before { content: "\f112"; }
     
-    $font-Flaticon-bank: "\f100";
-    $font-Flaticon-dart: "\f101";
-    $font-Flaticon-career: "\f102";
-    $font-Flaticon-lightbulb: "\f103";
-    $font-Flaticon-pie-chart: "\f104";
-    $font-Flaticon-trophy: "\f105";
-    $font-Flaticon-money: "\f106";
-    $font-Flaticon-handshake: "\f107";
-    $font-Flaticon-presentation: "\f108";
+    $font-Flaticon-bars: "\f100";
+    $font-Flaticon-wallet: "\f101";
+    $font-Flaticon-money-bag: "\f102";
+    $font-Flaticon-bank: "\f103";
+    $font-Flaticon-wallet-1: "\f104";
+    $font-Flaticon-euro: "\f105";
+    $font-Flaticon-credit-card: "\f106";
+    $font-Flaticon-chart: "\f107";
+    $font-Flaticon-strongbox: "\f108";
+    $font-Flaticon-coins: "\f109";
+    $font-Flaticon-money: "\f10a";
+    $font-Flaticon-note: "\f10b";
+    $font-Flaticon-shield: "\f10c";
+    $font-Flaticon-mobile-phone: "\f10d";
+    $font-Flaticon-exchange: "\f10e";
+    $font-Flaticon-yens: "\f10f";
+    $font-Flaticon-project-management: "\f110";
+    $font-Flaticon-mortarboard: "\f111";
+    $font-Flaticon-growth: "\f112";

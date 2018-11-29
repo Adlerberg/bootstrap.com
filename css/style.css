@@ -7613,8 +7613,7 @@ textarea.form-control {
   margin-bottom: 30px; }
 
 #section-about {
-  padding: 8em 0 0 0;
-  margin: 2% 0 0 0 }
+  padding: 5em 0 0 0; }
   #section-about .img {
     position: absolute;
     right: 0; }
@@ -8176,7 +8175,7 @@ textarea.form-control {
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background: #9de3cc;
+      background: rgb(168, 208, 140);
       z-index: -1; }
   .block-6 .media-body .heading {
     font-size: 20px; }
@@ -8661,5 +8660,5 @@ textarea.form-control {
     #monkey-above {
       justify-content: space-between;
       margin: 0 0 0 0;
-      padding: 10% 0 0 0;
+      padding: 2% 0 0 0;
     }
