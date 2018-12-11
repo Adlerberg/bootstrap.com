@@ -8686,20 +8686,14 @@ textarea.form-control {
       padding: 0;
       border: 0;
     }
-    html, body {
-      min-height: 100%;
-    }
-    body {
-      background-color: #00a99e;
-    }
     .clock {
       position: relative;
       height: 800px;
       width: 800px;
-      background: white;
+      background: rgb(168, 208, 140);
       box-sizing: border-box;
       border-radius: 100%;
-      border: 10px solid #67d2c8;
+      border: 20px solid #67d2c8;
       position: absolute;
       top: 0;
       left: 0;
@@ -8747,8 +8741,8 @@ textarea.form-control {
       margin: auto 0;
     }
     .clock .center {
-      height: 6px;
-      width: 6px;
+      height: 25px;
+      width: 25px;
       position: absolute;
       left: 0;
       right: 0;
@@ -8758,15 +8752,7 @@ textarea.form-control {
       background: #262626;
       border-radius: 100%;
     }
-    .clock .shadow {
-      height: 200px;
-      width: 200px;
-      position: absolute;
-      left: 60px;
-      top: 60px;
-      transform: rotate(135deg);
-      background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
-    }
+    
     .clock .hour {
       width: 12px;
       height: 100%;
@@ -8774,13 +8760,13 @@ textarea.form-control {
       left: 0;
       right: 0;
       margin: 0 auto;
-      animation: time 5s infinite linear;
+      animation: time 15s infinite linear;
     }
     .clock .hour:before {
       position: absolute;
       content: "";
       background: #262626;
-      height: 20em;
+      height: 22em;
       width: 3px;
       top: 30px;
     }
@@ -8791,7 +8777,7 @@ textarea.form-control {
       left: 0;
       right: 0;
       margin: 0 auto;
-      animation: time 30s infinite linear;
+      animation: time 10s infinite linear;
     }
     .clock .minute:before {
       position: absolute;
@@ -8799,7 +8785,7 @@ textarea.form-control {
       background: #262626;
       height: 20em;
       width: 3px;
-      top: 50px;
+      top: 70px;
     }
     .clock .second {
       width: 8px;
@@ -8808,15 +8794,15 @@ textarea.form-control {
       left: 0;
       right: 0;
       margin: 0 auto;
-      animation: time 15s infinite linear;
+      animation: time 5s infinite linear;
     }
     .clock .second:before {
       position: absolute;
       content: "";
       background: #fd1111;
-      height: 20em;
+      height: 18em;
       width: 3px;
-      top: 45px;
+      top: 90px;
     }
     @keyframes time {
       to {
