@@ -8846,10 +8846,39 @@ textarea.form-control {
 
     .idp-wrap {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
     }
 
     .idp-jobs {
-      width: 15%;
-      margin-left: 2em;
+      width: 10%;
+    }
+
+    .idp-jobs-text {
+      font-size: 36px;
+      color: rgb(165, 165, 165);
+      font-family: Arial;
+    }
+
+    .idp-jobs-signature {
+      font-size: 18px;
+      font-family: Calibri;
+      color: rgb(47,84,150);
+    }
+
+    .idp-text {
+      font-size: 16px;
+      font-family: inherit;
+      font-weight: 400;
+    }
+
+    .idp-head {
+      font-size: 18px;
+      font-weight: bold;
+      font-family: Arial;
+    }
+
+    .idp-description {
+      width: 670px;
+      text-align: justify;
+      margin-left: 10rem;
     }
