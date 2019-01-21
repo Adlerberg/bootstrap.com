@@ -8882,3 +8882,29 @@ textarea.form-control {
       text-align: justify;
       margin-left: 10rem;
     }
+
+    .ellipse {
+      width: 305px;
+      height: 100px;
+      background-color:rgb(227, 243, 209) ;
+      -moz-border-radius: 100px/50px;
+      -webkit-border-radius:  100px/50px;
+      border-radius:  115px/75px;
+  }
+
+  .idp-pillars {
+    margin-left: 5em;
+    display: inline-flex;
+    text-align: -webkit-center;
+    color: grey;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bolder;
+  }
+
+  .idp-pillars-ul {
+    margin-left: 8em;
+    margin-top: -3.5rem;
+    font-size: 13px;
+    font-family: Arial;
+  }
