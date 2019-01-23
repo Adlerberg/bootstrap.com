@@ -7404,7 +7404,7 @@ h1, h2, h3, h4, h5,
       color: rgb(168, 208, 140); }
 
 .navbar-brand {
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: .1em; }
 
 .bg-image, .ftco-cover {
@@ -8761,7 +8761,7 @@ textarea.form-control {
       left: 0;
       right: 0;
       margin: 0 auto;
-      animation: time 15s infinite linear;
+      animation: time 90s infinite linear;
     }
     .clock .hour:before {
       position: absolute;
@@ -8778,7 +8778,7 @@ textarea.form-control {
       left: 0;
       right: 0;
       margin: 0 auto;
-      animation: time 10s infinite linear;
+      animation: time 60s infinite linear;
     }
     .clock .minute:before {
       position: absolute;
@@ -8795,7 +8795,7 @@ textarea.form-control {
       left: 0;
       right: 0;
       margin: 0 auto;
-      animation: time 5s infinite linear;
+      animation: time 30s infinite linear;
     }
     .clock .second:before {
       position: absolute;
@@ -8893,7 +8893,7 @@ textarea.form-control {
   }
 
   .idp-pillars {
-    margin-left: 5em;
+    margin-left: 17em;
     display: inline-flex;
     text-align: -webkit-center;
     color: grey;
@@ -8903,8 +8903,40 @@ textarea.form-control {
   }
 
   .idp-pillars-ul {
-    margin-left: 8em;
+    margin-left: 26em;
     margin-top: -3.5rem;
     font-size: 13px;
     font-family: Arial;
   }
+
+  .arrow-wrap {
+    display: flex;
+    align-items: center;
+    width: 75%;
+  }
+
+  .arrow-left {
+    float: left;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 43.3px 25px 0;
+    border-color: transparent black transparent transparent;
+  }
+
+  
+  .arrow-right {
+    float: right;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 0 25px 43.3px;
+    border-color: transparent transparent transparent black;
+    }
+
+    .arrow-center {
+      flex: 1;
+      background-color: black;
+      border: solid #000 5px;
+      height: 3px;
+    }
