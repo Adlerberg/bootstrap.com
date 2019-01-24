@@ -8893,7 +8893,6 @@ textarea.form-control {
   }
 
   .idp-pillars {
-    margin-left: 17em;
     display: inline-flex;
     text-align: -webkit-center;
     color: grey;
@@ -8903,7 +8902,7 @@ textarea.form-control {
   }
 
   .idp-pillars-ul {
-    margin-left: 26em;
+    margin-left: 2em;
     margin-top: -3.5rem;
     font-size: 13px;
     font-family: Arial;
@@ -8912,7 +8911,7 @@ textarea.form-control {
   .arrow-wrap {
     display: flex;
     align-items: center;
-    width: 75%;
+    width: 105%;
   }
 
   .arrow-left {
@@ -8939,4 +8938,12 @@ textarea.form-control {
       background-color: black;
       border: solid #000 5px;
       height: 3px;
+    }
+
+    .arrow-text {
+    text-align: -webkit-center;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -2em;
     }
