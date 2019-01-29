@@ -8933,12 +8933,12 @@ textarea.form-control {
     border-color: transparent transparent transparent black;
     }
 
-    .arrow-center {
-      flex: 1;
-      background-color: black;
-      border: solid #000 5px;
-      height: 3px;
-    }
+  .arrow-center {
+   flex: 1;
+   background-color: black;
+   border: solid #000 5px;
+   height: 3px;
+  }
 
     .arrow-text {
     text-align: -webkit-center;
@@ -8946,4 +8946,13 @@ textarea.form-control {
     font-size: 14px;
     font-weight: 500;
     margin-top: -2em;
+    }
+
+    .rcr-wrap {
+      width: 21.3cm;
+      height: 14.88cm; 
+      text-align: justify;
+      font-family: Arial;
+      font-size: 18px;
+      margin: auto;
     }
