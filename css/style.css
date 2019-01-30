@@ -8630,266 +8630,266 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-    .green-text{
-      background-color: rgb(168, 208, 140);
-      color: black;
-      font-size: 25px;
-      text-align: center;
-    }
-
-    .text {
+  .green-text{
+    background-color: rgb(168, 208, 140);
+    color: black;
+    font-size: 25px;
     text-align: center;
-    font-size: larger;
-    font-weight: 400;
-    }
+  }
 
-    .info-heading {
-      text-align: center;
-      margin-bottom: 20px;
-    }
+  .text {
+  text-align: center;
+  font-size: larger;
+  font-weight: 400;
+  }
 
-    #monkey-image {
-      height: 500px;
-      background-repeat: no-repeat;
-      background-size: unset; 
-    }
+  .info-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-    #monkey-div{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      margin: auto;
-    }
+  #monkey-image {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: unset; 
+  }
 
-    #monkey-above {
-      justify-content: space-between;
-      margin: 0 0 0 0;
-      padding: 2% 0 0 0;
-    }
+  #monkey-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  #monkey-above {
+    justify-content: space-between;
+    margin: 0 0 0 0;
+    padding: 2% 0 0 0;
+  }
 
 
-    #clock-text {
-      display: block;
-      position: absolute;
-      text-align: center;
+  #clock-text {
+    display: block;
+    position: absolute;
+    text-align: center;
 
-    }
-    
-    #text{
-      margin-top: 0.5em;
-      font-size: 130px;
-      font-family: Impact;
-    }
+  }
+  
+  #text{
+    margin-top: 0.5em;
+    font-size: 130px;
+    font-family: Impact;
+  }
 
-    * {
-      margin: 0;
-      padding: 0;
-      border: 0;
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .clock {
+    position: relative;
+    height: 800px;
+    width: 800px;
+    background: rgb(168, 208, 140);
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 20px solid #67d2c8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .clock .top {
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: #262626;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .clock .right {
+    position: absolute;
+    width: 8px;
+    height: 3px;
+    background: #262626;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+  }
+  .clock .bottom {
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: #262626;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  .clock .left {
+    position: absolute;
+    width: 8px;
+    height: 3px;
+    background: #262626;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0;
+  }
+  .clock .center {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #262626;
+    border-radius: 100%;
+  }
+  
+  .clock .hour {
+    width: 12px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: time 90s infinite linear;
+  }
+  .clock .hour:before {
+    position: absolute;
+    content: "";
+    background: #262626;
+    height: 22em;
+    width: 3px;
+    top: 30px;
+  }
+  .clock .minute {
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: time 60s infinite linear;
+  }
+  .clock .minute:before {
+    position: absolute;
+    content: "";
+    background: #262626;
+    height: 20em;
+    width: 3px;
+    top: 70px;
+  }
+  .clock .second {
+    width: 8px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: time 30s infinite linear;
+  }
+  .clock .second:before {
+    position: absolute;
+    content: "";
+    background: #fd1111;
+    height: 17.4em;
+    width: 3px;
+    top: 90px;
+  }
+  @keyframes time {
+    to {
+      transform: rotate(360deg);
     }
-    .clock {
-      position: relative;
-      height: 800px;
-      width: 800px;
-      background: rgb(168, 208, 140);
-      box-sizing: border-box;
-      border-radius: 100%;
-      border: 20px solid #67d2c8;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
-    .clock .top {
-      position: absolute;
-      width: 3px;
-      height: 8px;
-      background: #262626;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-    }
-    .clock .right {
-      position: absolute;
-      width: 8px;
-      height: 3px;
-      background: #262626;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      margin: auto 0;
-    }
-    .clock .bottom {
-      position: absolute;
-      width: 3px;
-      height: 8px;
-      background: #262626;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: 0 auto;
-    }
-    .clock .left {
-      position: absolute;
-      width: 8px;
-      height: 3px;
-      background: #262626;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      margin: auto 0;
-    }
-    .clock .center {
-      height: 25px;
-      width: 25px;
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      margin: auto;
-      background: #262626;
-      border-radius: 100%;
-    }
-    
-    .clock .hour {
-      width: 12px;
-      height: 100%;
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      animation: time 90s infinite linear;
-    }
-    .clock .hour:before {
-      position: absolute;
-      content: "";
-      background: #262626;
-      height: 22em;
-      width: 3px;
-      top: 30px;
-    }
-    .clock .minute {
-      width: 4px;
-      height: 100%;
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      animation: time 60s infinite linear;
-    }
-    .clock .minute:before {
-      position: absolute;
-      content: "";
-      background: #262626;
-      height: 20em;
-      width: 3px;
-      top: 70px;
-    }
-    .clock .second {
-      width: 8px;
-      height: 100%;
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      animation: time 30s infinite linear;
-    }
-    .clock .second:before {
-      position: absolute;
-      content: "";
-      background: #fd1111;
-      height: 17.4em;
-      width: 3px;
-      top: 90px;
-    }
-    @keyframes time {
-      to {
-        transform: rotate(360deg);
-      }
-    }
+  }
 
-    .text-under {
+  .text-under {
     text-align: left;
     position: absolute;
     display: flex;
     top: 7em;
     font-size: 25px;
-    }
+  }
 
-    .imtab_wrapper {
-      display: flex;
-    }
+  .imtab_wrapper {
+    display: flex;
+  }
 
-    #info {
-      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-      border-collapse: collapse;
-      width: 50%;
-    }
+  #info {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
     
-    #info td, #info th {
-      border: 1px solid #ddd;
-      padding: 8px;
-    }
+  #info td, #info th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
     
-    #info tr:nth-child(even){background-color: #f2f2f2;}
+  #info tr:nth-child(even){background-color: #f2f2f2;}
     
-    #info tr:hover {background-color: #ddd;}
+  #info tr:hover {background-color: #ddd;}
     
-    #info th {
-      padding-top: 12px;
-      padding-bottom: 12px;
-      text-align: left;
-    }
+  #info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+  }
 
-    .idp-wrap {
-      display: flex;
-      justify-content: center;
-    }
+  .idp-wrap {
+    display: flex;
+    justify-content: center;
+  }
 
-    .idp-jobs {
-      width: 10%;
-    }
+  .idp-jobs {
+    width: 10%;
+  }
 
-    .idp-jobs-text {
-      font-size: 36px;
-      color: rgb(165, 165, 165);
-      font-family: Arial;
-    }
+  .idp-jobs-text {
+    font-size: 36px;
+    color: rgb(165, 165, 165);
+    font-family: Arial;
+  }
 
-    .idp-jobs-signature {
-      font-size: 18px;
-      font-family: Calibri;
-      color: rgb(47,84,150);
-    }
+  .idp-jobs-signature {
+    font-size: 18px;
+    font-family: Calibri;
+    color: rgb(47,84,150);
+  }
 
-    .idp-text {
-      font-size: 16px;
-      font-family: inherit;
-      font-weight: 400;
-    }
+  .idp-text {
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 400;
+  }
 
-    .idp-head {
-      font-size: 18px;
-      font-weight: bold;
-      font-family: Arial;
-    }
+  .idp-head {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+  }
 
-    .idp-description {
-      width: 670px;
-      text-align: justify;
-      margin-left: 10rem;
-    }
+  .idp-description {
+    width: 670px;
+    text-align: justify;
+    margin-left: 10rem;
+  }
 
-    .ellipse {
-      width: 305px;
-      height: 100px;
-      background-color:rgb(227, 243, 209) ;
-      -moz-border-radius: 100px/50px;
-      -webkit-border-radius:  100px/50px;
-      border-radius:  115px/75px;
+  .ellipse {
+    width: 305px;
+    height: 100px;
+    background-color:rgb(227, 243, 209) ;
+    -moz-border-radius: 100px/50px;
+    -webkit-border-radius:  100px/50px;
+    border-radius:  115px/75px;
   }
 
   .idp-pillars {
@@ -8931,28 +8931,74 @@ textarea.form-control {
     border-style: solid;
     border-width: 25px 0 25px 43.3px;
     border-color: transparent transparent transparent black;
-    }
-
-  .arrow-center {
-   flex: 1;
-   background-color: black;
-   border: solid #000 5px;
-   height: 3px;
   }
 
-    .arrow-text {
+  .arrow-center {
+    flex: 1;
+    background-color: black;
+    border: solid #000 5px;
+    height: 3px;
+  }
+
+  .arrow-text {
     text-align: -webkit-center;
     font-family: inherit;
     font-size: 14px;
     font-weight: 500;
     margin-top: -2em;
-    }
+  }
 
-    .rcr-wrap {
-      width: 21.3cm;
-      height: 14.88cm; 
-      text-align: justify;
-      font-family: Arial;
-      font-size: 18px;
-      margin: auto;
-    }
+  .rcr-wrap {
+    width: 21.3cm;
+    height: 14.88cm; 
+    text-align: justify;
+    font-family: Arial;
+    font-size: 18px;
+    margin: auto;
+  }
+
+    .grey-arrow-wrap {
+    /* inherits from .arrow-wrap */
+    width: 95%;
+    justify-content: center;
+    margin-left: 55px;
+  }
+
+  .grey-ul-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    font-family: Arial;
+    font-size: 11px;
+    color: rgb(191,191,191);
+  }
+
+  .ul-title {
+    /* inerits from .grey-ul-wrap */
+    font-family: Calibri;
+    font-size: 18px;
+    color: inherit;
+  }
+
+  .grey-left {
+    /* inherits from .arrow-left */
+    border-color: transparent rgb(191,191,191) transparent transparent;
+    border-width: 7.5px 13.0px 7.5px 0;
+  }
+
+  .grey-center {
+    /* inherits from .arrow-center, .arrow-right */
+    background-color: rgb(191,191,191);
+    border: solid rgb(191,191,191) 2px;
+  }
+
+  .grey-right {
+    /* inherits from .arrow-right */
+    border-color: transparent transparent transparent rgb(191,191,191);
+    border-width: 7.5px 0 7.5px 13.0px;
+  }
+
+  .grey-text {
+    /* inherits from arrow-text */
+    color: rgb(191,191,191);
+  }
