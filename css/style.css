@@ -12576,32 +12576,57 @@ textarea.form-control {
 
 .imtab_wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#info {
+.info {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 50%;
+  font-size: 16px;
 }
 
-#info td,
-#info th {
+.info td,
+.info th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#info tr:nth-child(even) {
+.info tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-#info tr:hover {
+.info tr:hover {
   background-color: #ddd;
 }
 
-#info th {
+.info th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
+}
+
+.info td:first-child,
+.info th:first-child {
+  background-color: rgb(196, 224, 178);
+  font-size: 18px;
+  color: white;
+}
+
+.table-title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.title-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.image-title {
+  width: 45%;
 }
 
 .idp-wrap {
@@ -12616,12 +12641,12 @@ textarea.form-control {
 .idp-jobs-text {
   font-size: 36px;
   color: rgb(165, 165, 165);
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .idp-jobs-signature {
   font-size: 18px;
-  font-family: Calibri;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(47, 84, 150);
 }
 
@@ -12796,4 +12821,31 @@ a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.span-isp {
+  margin-left: 8%;
+  display: block;
+}
+
+.arrow-isp {
+  width: 100%;
+}
+
+.arrow-text-under {
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.arrow-under-image {
+  width: 50%;
+  float: left;
+}
+
+.text-under-table {
+  color: black !important;
+  display: block;
+  float: right;
+  width: 30%;
 }
