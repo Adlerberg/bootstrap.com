@@ -12380,6 +12380,7 @@ textarea.form-control {
   color: black;
   font-size: 25px;
   text-align: center;
+  font-weight: 400;
 }
 
 .text {
@@ -12793,7 +12794,7 @@ textarea.form-control {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  margin-top: -15%;
+  margin-top: -10%;
 }
 
 .timing-is-everything {
@@ -12839,7 +12840,7 @@ a:hover {
 }
 
 .arrow-under-image {
-  width: 50%;
+  width: 58%;
   float: left;
 }
 
@@ -12847,5 +12848,10 @@ a:hover {
   color: black !important;
   display: block;
   float: right;
-  width: 30%;
+  width: 29%;
+  margin-left: auto;
+}
+
+.bold {
+  font-weight: bold;
 }
