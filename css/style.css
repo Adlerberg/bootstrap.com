@@ -4591,7 +4591,7 @@ input[type="button"].btn-block {
   font-size: 7rem;
   line-height: inherit;
   white-space: nowrap;
-  font-family: Impact;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgb(168, 208, 140)
 }
 
@@ -12680,7 +12680,7 @@ textarea.form-control {
 
 .idp-pillars {
   display: inline-flex;
-  text-align: -webkit-center;
+  text-align: center;
   color: grey;
   font-size: 18px;
   font-family: Arial;
@@ -12688,10 +12688,12 @@ textarea.form-control {
 }
 
 .idp-pillars-ul {
-  margin-left: 2em;
-  margin-top: -3.5rem;
+  margin-left: 2%;
+  margin-top: -3.5%;
   font-size: 13px;
   font-family: Arial;
+  display: flex;
+  align-items: center;
 }
 
 .arrow-wrap {
@@ -12727,7 +12729,7 @@ textarea.form-control {
 }
 
 .arrow-text {
-  text-align: -webkit-center;
+  text-align: center;
   font-family: inherit;
   font-size: 14px;
   font-weight: 500;
